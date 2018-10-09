@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/informasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="BIODATA ANDA"
+        />
+
+    <TextView
+        android:id="@+id/lbl_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="77dp"
+        android:layout_toStartOf="@+id/informasi"
+        android:text="Nama  :  " />
+
+    <TextView
+        android:id="@+id/txt_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/lbl_nama"
+        android:layout_marginStart="113dp"
+        android:text="Tio Tamara" />
+
+    <TextView
+        android:id="@+id/lbl_nim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="105dp"
+        android:layout_toStartOf="@+id/informasi"
+        android:text="NIM  :  " />
+
+    <TextView
+        android:id="@+id/txt_nim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txt_nama"
+        android:layout_alignTop="@+id/lbl_nim"
+        android:text="155410086" />
+
+    <TextView
+        android:id="@+id/lbl_no_telp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="131dp"
+        android:layout_toStartOf="@+id/informasi"
+        android:text="No Hp  :  " />
+
+    <TextView
+        android:id="@+id/txt_no_telp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txt_nama"
+        android:layout_alignTop="@+id/lbl_no_telp"
+        android:text="087838883764" />
+
+    <TextView
+        android:id="@+id/lbl_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="157dp"
+        android:layout_toStartOf="@+id/informasi"
+        android:text="Email  :  " />
+
+    <TextView
+        android:id="@+id/txt_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txt_nama"
+        android:layout_alignTop="@+id/lbl_email"
+        android:text="tiotamara@gmail.com" />
+
+    <TextView
+        android:id="@+id/lbl_alamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="184dp"
+        android:layout_toStartOf="@+id/informasi"
+        android:text="Alamat  :  " />
+
+    <TextView
+        android:id="@+id/txt_alamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txt_nama"
+        android:layout_alignTop="@+id/lbl_alamat"
+        android:text="Somodaran Banyuraden, Gamping, Sleman, Yogyakarta, Indonesia" />
+
+    <TextView
+        android:id="@+id/lbl_foto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/informasi"
+        android:text="Foto  :  " />
+
+    <ImageView
+        android:id="@+id/foto"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignTop="@+id/lbl_foto"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@mipmap/ic_launcher_round" />
+
+
+</RelativeLayout>
